@@ -1,0 +1,106 @@
+{
+   "name":" ",
+   "title":"Acute fluoxetine differently affects aggressive display in zebrafish phenotypes",
+   "id":"http://dx.doi.org/ ",
+   "profile":"tabular-data-package",
+   "description":"Dataset from accompanying paper on the effects of fluoxetine on zebrafish aggressive behavior",
+   "contributors":[
+      {
+         "title":"Caio Maximino",         "title":"Hellen Pereira Barbosa",         "title":"Monica Gomes Lima"
+      }
+   ],
+    "licenses": [{
+    "name": "ODC-PDDL-1.0",
+    "path": "http://opendatacommons.org/licenses/pddl/",
+    "title": "Open Data Commons Public Domain Dedication and License v1.0"
+  }]
+   "resources":[
+      {
+         "path":"exp1.csv",
+         "schema":{
+            "fields":[
+               {
+                  "description":"Subject number variable",
+                  "name":"subj",
+                  "type":"string"
+               },
+               {
+                  "description":"Phenotype; strings represent longfin or leopard group",
+                  "name":"Phenotype",
+                  "type":"string"
+               },
+               {
+                  "description":"Display latency (s)",
+                  "name":"Latency",
+                  "type":"numeric"
+               },
+               {
+                  "description":"Display duration (s)",
+                  "name":"Dur.Display",
+                  "type":"numeric"
+               },
+               {
+                  "description":"Display frequency (N)",
+                  "name":"N.Display",
+                  "type":"numeric"
+               },
+               {
+                  "description":"Time near mirror (s)",
+                  "name":"T.Mirror",
+                  "type":"numeric"
+               },
+               {
+                  "description":"Number of squares crossed (N)",
+                  "name":"N.Quad",
+                  "type":"numeric"
+               },
+            ]
+         }
+      }
+   {
+         "path":"exp2.csv",
+         "schema":{
+            "fields":[
+               {
+                  "description":"Subject number variable",
+                  "name":"subj",
+                  "type":"string"
+               },
+               {
+                  "description":"Phenotype; strings represent longfin or leopard group",
+                  "name":"Phenotype",
+                  "type":"string"
+               },
+               {
+                  "description":"Fluoxetine dose (mg/kg)",
+                  "name":"Dose",
+                  "type":"string"
+               },
+               {
+                  "description":"Display latency (s)",
+                  "name":"Latency",
+                  "type":"numeric"
+               },
+               {
+                  "description":"Display duration (s)",
+                  "name":"Dur.Display",
+                  "type":"numeric"
+               },
+               {
+                  "description":"Display frequency (N)",
+                  "name":"N.Display",
+                  "type":"numeric"
+               },
+               {
+                  "description":"Time near mirror (s)",
+                  "name":"T.Mirror",
+                  "type":"numeric"
+               },
+               {
+                  "description":"Number of squares crossed (N)",
+                  "name":"N.Quad",
+                  "type":"numeric"
+               },
+              }
+   ]
+}
